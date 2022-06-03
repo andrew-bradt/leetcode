@@ -15,6 +15,7 @@ const mergeTwoLists = (list1, list2) => {
   if (!list1 && !list2) return null;
   if (!list2 && list1) return list1;
   if (!list1 && list2) return list2;
+  
   let mergedHead;
 
   if (list1.val <= list2.val) {
